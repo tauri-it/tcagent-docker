@@ -9,7 +9,7 @@
 # Description:       Enable service provided by daemon.
 ### END INIT INFO
 #Provide the correct user name:
-USER="root"
+USER=${TCAGENTUSER}
  
 case "$1" in
 start)

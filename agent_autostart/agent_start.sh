@@ -1,4 +1,6 @@
 #!/bin/sh
-/root/buildAgent/bin/agent.sh start
+/home/tcagent/buildAgent/bin/agent.sh start
+
+/home/tcagent/scripts/startdocker.sh
 
 /bin/bash
